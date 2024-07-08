@@ -35,3 +35,18 @@ console.log(valueInNum);
 let islogged=1
 let booleanIsLoggedIn=Boolean(islogged)
 console.log(booleanIsLoggedIn)
+//To change boolean values to true &false
+
+/*
+In boolean:
+1=>true
+0=>false
+empty string("")=>false
+any string("jigisha")=>true
+*/
+
+let somenum=45
+let stringNum=String(somenum)
+console.log(stringNum)
+console.log(typeof stringNum)
+//To convert num to string

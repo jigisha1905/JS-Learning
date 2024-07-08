@@ -22,6 +22,7 @@ because of issue in block scope and functional scope.
 
 let account_State;
 //semicolon may be used or not in js.
+//The output for this is undefined.(if u only declare a variable)
 
 account_Email="rimjhim@google.com"
 account_Password="2003"

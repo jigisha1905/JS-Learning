@@ -17,5 +17,5 @@ let user1={
 }
 let user2=user1
 user2.email="jigisha@34"
-console.log(user1.email)
+console.log(user1.email)//gets only reference
 console.log(user2.email)

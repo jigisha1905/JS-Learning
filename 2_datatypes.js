@@ -37,7 +37,8 @@ console.log(typeof undefined);
 Non Primitive or reference datatypes:
 1.Array
 2.Objects
-3.Functions
+3.Functions 
+(datatypes->functions only function->object function )
 */
 
 //Defining symbols:
@@ -45,16 +46,16 @@ const id=Symbol('123')
 const anotherId=Symbol('123')
 console.log(id===anotherId) //values are same still they are not equal
 
-//Defining Arrays:
+//Declaring Arrays:
 const heros=["batman","spiderman","ironman"]
 
-//Defining Objects:
+//Declaring Objects:
 let myObj={
     name:"jigisha",//can be any datatypes
     age:20,
 }
 
-//Defining function:
+//Declaration of function:
 const myfunc=function(){
     console.log("hii guyzz")
 }
