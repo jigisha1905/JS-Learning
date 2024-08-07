@@ -1,0 +1,41 @@
+/<!--EDIT AND REMOVE ELEMENTS IN DOM-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: midnightblue ;color: bisque;">
+    <ul class="language">
+        <li>Javascript</li>
+    </ul>
+</body>
+<script>
+    function addlang(langname){
+        const li=document.createElement('li')
+        li.innerHTML=`${langnam}`
+        document.querySelector('.language')
+        appendchild(li)
+    }
+    addlang("python")
+    addlang("c++")
+
+    function addoptlang(langname){
+        const li=document.createElement('li')
+        li.appendChild(document.createTextNode(langname))
+        document.querySelector('.language').appendChild(li)
+    }
+    addoptlang("java")
+
+    //edit the elements
+    const seclang=document.querySelector("li:nth-child(2)")
+    const newli=document.createElement("li")
+    newli.textContent="mojo"
+    seclang.replaceWith(newli)
+    
+    //remove the elements
+    const lastlang=document.querySelector("li:last-child")
+    lastlang.remove()
+</script>
+</html>
