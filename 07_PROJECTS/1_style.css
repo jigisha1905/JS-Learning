@@ -1,0 +1,45 @@
+html {
+    margin: 0;
+  }
+  nav{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    background-color: whitesmoke;
+  }
+  nav a{
+    color: black;
+  }
+  span {
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+  }
+  .canvas {
+    margin: 100px auto 100px;
+    width: 80%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .button {
+    width: 100px;
+    height: 100px;
+    border: solid black 2px;
+    display: inline-block;
+  }
+  
+  #palevioletred {
+    background:palevioletred;
+  }
+  
+  #burlywood {
+    background: burlywood;
+  }
+  #greenyellow {
+    background: greenyellow;
+  }
+  #purple {
+    background: purple;
+  }
+  
