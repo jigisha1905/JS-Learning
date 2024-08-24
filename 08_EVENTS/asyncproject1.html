@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Chai aur code</h1>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    const sayHitesh = function(){
+        console.log("Hitesh");
+    }
+    const changeText = function(){
+        document.querySelector('h1').innerHTML = "best JS series"
+    }
+
+    const changeMe = setTimeout(changeText, 2000)
+    //giving 'changeText' as a refrence so it will get displayed after 2 sec
+    //'setTimeout' performs the task once
+    //while 'interval' keeps perfroming it again and again
+
+    document.querySelector('#stop').addEventListener('click', function(){
+        clearTimeout(changeMe)
+        console.log("STOPPED")
+    })
+    //clearTimeout->used to cancel a previously established timeout
+    //whenever stop button is pressed the event gets stopped
+</script>
+</html>

@@ -11,17 +11,21 @@ nav ul li{
     list-style: none;
 }
 .container{
-    width:575px;
-    height: 825px;
+    display:block;
+    justify-content: center;
+    width:800px;
+    height:600px;
     background-color: antiquewhite;
-    padding-left: 30px;
+    padding-left: 570px;
 }
 #height,#weight{
     width:150px;
     height: 25px;
-    margin-top: 30px;
+    margin-top:40px
 }
 #weight-guide{
+    display: contents;
+    justify-content: center;
     margin-left: 75px;
     margin-top: 25px;
 }
