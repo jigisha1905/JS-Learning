@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: darkslategrey;">
+    
+</body>
+<script>
+    const requesturl='https://api.github.com/users/hiteshchoudhary'
+    const xhr=new XMLHttpRequest();
+    xhr.open('GET',requesturl)
+    //console.log(xhr.readyState)
+    //console.log("here")
+    xhr.onreadystatechange=function(){
+        console.log(xhr.readyState)
+        if(xhr.readyState===4){
+            const data=JSON.parse(this.responsetext)
+            //JSON>parse is used to change into objects
+            console.log(typeof data)
+            //whenever the data come from the url it comes in the form of string
+            console.log(data.followers)
+            //when we talk about current context this keyword is used
+        }
+    }
+    //tracking continuously the state change
+    //open sends the request
+    xhr.send()
+    //open gets called
+</script>
+</html>
