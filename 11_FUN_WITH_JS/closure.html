@@ -1,0 +1,82 @@
+<!--closure gives u access to an outer function's scope from an inner function
+at the creation time
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closure aur chai</title>
+</head>
+<body style="background-color: #313131;">
+    <button id="orange">Orange</button>
+    <button id="green">Green</button>
+</body>
+
+    <script>
+
+    // function outer(){
+    //     let username = "hitesh"
+    //     console.log("OUTER", secret);
+    //child properties can't be accessed in parent
+    //     function inner(){
+    //         let secret = "my123"
+    //         console.log("inner", username); 
+    //     }
+    //     function innerTwo(){
+    //         console.log("innerTwo", username);
+    //         console.log(secret);
+    //     } 
+    //outer is the parent and inner & innertwo r the childs so both will get access
+    //secret is defined in inner hence not accessable in innertwo
+    //     inner()
+    //     innerTwo()
+
+    // }
+    // outer()
+    // console.log("TOO OUTER", username);
+    //whatever declared in the func is not available in outer space
+
+
+    // function makeFunc() {
+    //     const name = "Mozilla";
+    //     function displayName() {
+    //         console.log(name);
+    //     }
+    //     return displayName;
+    // }
+
+//all the properties or lexical scoping of inner func will be accessed
+//all memory will share not only it's executional context
+
+    // const myFunc = makeFunc();
+    // myFunc();
+
+    </script>
+    <script>
+        //to change the background color when a button is clicked
+
+        // document.getElementById("orange").onclick = function(){
+        //     document.body.style.backgroundColor = `orange`
+        // }
+        // document.getElementById("green").onclick = function(){
+        //     document.body.style.backgroundColor = `green`
+        // }
+
+        //when lots of buttons r given and it's color has to be changed when clicked,what to do??
+        function clickHandler(color){
+            // document.body.style.backgroundColor = `${color}`
+
+            return function(){
+                document.body.style.backgroundColor = `${color}`
+                //access of color from main func to inner func 
+                //lexical scoping & closure
+            }
+        }
+
+        document.getElementById('orange').onclick = clickHandler("orange")
+        document.getElementById('green').onclick = clickHandler("green")
+        //reference of a fuction is given so it directly executes
+    </script>
+</html>
