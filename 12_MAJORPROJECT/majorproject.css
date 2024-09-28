@@ -196,3 +196,69 @@ span{
     margin-top: 4rem;
     margin-bottom: 4.5rem;
 }
+/*box2*/
+img{
+    height: 100px;
+    width: 100px;
+}
+.box2-main1{
+    margin-top: 0.80rem;
+    margin-bottom: 1rem;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box2-main2{
+    margin-top: 1rem;
+    margin-bottom: 0.80rem;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box2-main1 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.70rem;
+    color: black;
+}
+.box2-main2 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.70rem;
+    color: black;
+}
+.box2-main1 p:hover{
+    color: black;
+}
+.box2-main2 p:hover{
+    color: black;
+}
+/*box3*/
+.box3-main1{
+    margin-top: 2.8rem;
+    margin-bottom: 1rem;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box3-main2{
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box3-main1 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.70rem;
+    color: black;
+}
+.box3-main2 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.70rem;
+    color: black;
+}
+.box3-main1 p:hover{
+    color: black;
+}
+.box3-main2 p:hover{
+    color: black;
+}
