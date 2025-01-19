@@ -2,7 +2,8 @@
 # JavaScript: An Overview
 **JavaScript** is a high-level, versatile programming language primarily used to create interactive and dynamic content on websites. It is one of the foundational technologies of web development, alongside HTML and CSS, and is supported by all major web browsers. Initially designed for client-side scripting, JavaScript has grown into a full-fledged language that powers both front-end and back-end development.
 
-## Features of JavaScript
+## Features of JavaScript:
+
 **Lightweight**:
 JavaScript is a lightweight scripting language designed to enhance the functionality of web pages without adding significant overhead.
 
@@ -18,7 +19,7 @@ JavaScript can handle asynchronous tasks, enabling smooth operations like fetchi
 **Object-Oriented and Functional**:
 JavaScript supports multiple paradigms, such as object-oriented programming and functional programming, offering flexibility to developers.
 
-## A brief overview of fundamental JavaScript concepts.
+## A brief overview of fundamental JavaScript concepts:
 
 **Variables**:
 
