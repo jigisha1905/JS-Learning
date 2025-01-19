@@ -21,25 +21,33 @@ JavaScript supports multiple paradigms, such as object-oriented programming and 
 ## A brief overview of fundamental JavaScript concepts.
 
 **Variables**
+
 Variables are used to store data values. In JavaScript, you can define variables using let, const, and var. Modern best practices recommend using let and const for better scoping and predictability.
 
 **Functions**
+
 Functions are reusable blocks of code designed to perform specific tasks. They can take inputs, process them, and return outputs. JavaScript supports various types of functions, such as standard, arrow, and anonymous functions.
 
 **Loops**
+
 Loops are used to repeat a set of instructions until a specific condition is met. Common types of loops include for, while, and do-while. They allow efficient iteration over arrays, objects, or numbers.
 
 **Arrays**
+
 Arrays are ordered collections of items. They are used to store multiple values in a single variable and provide various methods to manipulate and retrieve data.
 
 **Objects**
+
 Objects are collections of key-value pairs, used to represent complex entities. They allow for organizing data and functionality in a structured manner.
 
 **Conditional Statements**
+
 Conditional statements allow decision-making in code. They evaluate conditions and execute specific blocks of code based on the outcome. Common statements include if, else, else if, and switch.
 
 **Events**
+
 Events are actions or occurrences that happen in the browser, like user interactions (clicks, keypresses) or system-generated events. JavaScript can handle these events to make web pages dynamic and interactive.
 
 **Promises**
+
 Promises are used to handle asynchronous operations in JavaScript. They represent a value that might be available now, later, or never. Promises simplify handling complex callback-based operations.
